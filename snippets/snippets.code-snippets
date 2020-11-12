@@ -62,5 +62,30 @@
             "sliderInput(inputId = \"${1}\", label = \"${2]\", min = ${3}, max = ${4}, value = ${5}, step = ${6:NULL}"
         ],
         "description": "Creates a slider widget in which the user can provide a numeric value within a predefined range"
+    },
+    "Create a full sliderInput template with all its arguments": {
+        "prefix": "!sliderInputFull",
+        "body": [
+            "sliderInput(",
+            "inputId = \"${1}\",",
+            "label = \"${2}\",",
+            "min = \"${3}\",",
+            "max = \"${4}\",",
+            "value = \"${5}\",",
+            "step = \"${6:NULL}\",",
+            "round = \"${7:FALSE}\",",
+            "format = \"${8:NULL}\",",
+            "locale = \"${9:NULL}\",",
+            "ticks = \"${10:TRUE}\",",
+            "animate = \"${11:FALSE}\",",
+            "width = \"${12:NULL}\",",
+            "sep = \"${13:,}\",",
+            "pre = \"${14:NULL}\",",
+            "post = \"${15:NULL}\",",
+            "timeFormat = \"${16:NULL}\",",
+            "timezone = \"${17:NULL}\",",
+            "dragRange = \"${18:TRUE}\")"
+        ],
+        "description": "Creates a fully fledged sliderInput. For a more compact widget see '!sliderInput'"
     }
 }
