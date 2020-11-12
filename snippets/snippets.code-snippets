@@ -117,7 +117,7 @@
             "language = \"${9:en}\", ",
             "width = NULL)"
         ],
-        "description": "Create a date input allowing the user to pick a date from a calendar"
+        "description": "Create a full parameterized date input allowing the user to pick a date from a calendar"
     },
     "Create a compact dateInput template": {
         "prefix": "!dateInput",
@@ -128,6 +128,6 @@
             "min = ${4:NULL}, ",
             "max = ${5:NULL}) ",
         ],
-        "description": "Create a date input allowing the user to pick a date from a calendar"
+        "description": "Create a compact date input allowing the user to pick a date from a calendar"
     }
 }
