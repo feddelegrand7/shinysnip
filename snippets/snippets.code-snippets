@@ -122,11 +122,7 @@
     "Create a compact dateInput template": {
         "prefix": "!dateInput",
         "body": [
-            "dateInput(inputId = \"${1}\", ",
-            "label = \"${2}\", ",
-            "value = ${3:NULL}, ",
-            "min = ${4:NULL}, ",
-            "max = ${5:NULL}) ",
+            "dateInput(inputId = \"${1}\", label = \"${2}\", value = ${3:NULL}, min = ${4:NULL}, max = ${5:NULL})"
         ],
         "description": "Create a compact date input allowing the user to pick a date from a calendar"
     }
