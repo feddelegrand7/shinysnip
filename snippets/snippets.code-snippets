@@ -64,7 +64,7 @@
         "description": "Creates a slider widget in which the user can provide a numeric value within a predefined range"
     },
     "Create a full sliderInput template with all its arguments": {
-        "prefix": "!sliderInputFull",
+        "prefix": "!sliderInputF",
         "body": [
             "sliderInput(",
             "inputId = \"${1}\",",
@@ -87,5 +87,20 @@
             "dragRange = \"${18:TRUE}\")"
         ],
         "description": "Creates a fully fledged sliderInput. For a more compact widget see '!sliderInput'"
+    },
+    "Create a navlistPanel template": {
+        "prefix": "!navlistPanel",
+        "body": [
+            "titlePanel(\"${1}\")",
+            "",
+            "navlistPanel(id = NULL, selected = NULL, well = TRUE, fluid = TRUE, widths = c(4,8)",
+            "",
+            "\"${2:Header}\"",
+            "",
+            "tabPanel(\"${3:Panel1}\", \"${4:Panel1 Content ...}\")",
+            "tabPanel(\"${5:Panel2}\", \"${6:Panel2 Content ...}\")",
+            "tabPanel(\"${7:Panel3}\", \"${7:Panel3 Content ...}\")"
+        ],
+        "description": "Create a navigation list panel linked to predefined tab panels"
     }
 }
