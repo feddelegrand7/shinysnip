@@ -91,15 +91,15 @@
     "Create a navlistPanel template": {
         "prefix": "!navlistPanel",
         "body": [
-            "titlePanel(\"${1}\")",
+            "titlePanel(\"${1}\"),",
             "",
-            "navlistPanel(id = NULL, selected = NULL, well = TRUE, fluid = TRUE, widths = c(4,8)",
+            "navlistPanel(id = NULL, selected = NULL, well = TRUE, fluid = TRUE, widths = c(3,9),",
             "",
-            "\"${2:Header}\"",
+            "\"${2:My Awesome Header}\",",
             "",
-            "tabPanel(\"${3:Panel1}\", \"${4:Panel1 Content ...}\")",
-            "tabPanel(\"${5:Panel2}\", \"${6:Panel2 Content ...}\")",
-            "tabPanel(\"${7:Panel3}\", \"${7:Panel3 Content ...}\")"
+            "tabPanel(\"${3:Panel1}\", \"${4:Panel1 Content ...}\"),",
+            "tabPanel(\"${5:Panel2}\", \"${6:Panel2 Content ...}\"),",
+            "tabPanel(\"${7:Panel3}\", \"${8:Panel3 Content ...}\"))"
         ],
         "description": "Create a navigation list panel linked to predefined tab panels"
     }
