@@ -55,5 +55,12 @@
             "numericInput(inputId = \"${1}\", label = \"${2}\", value = ${3}, min = ${4:NA}, max = ${5:NA}, step = ${6:NA}, width = NULL)"
         ],
         "description": "Shiny numeric inputs are used to collect numeric information from the end user"
+    },
+    "Create a sliderInput template": {
+        "prefix": "!sliderInput",
+        "body": [
+            "sliderInput(inputId = \"${1}\", label = \"${2]\", min = ${3}, max = ${4}, value = ${5}, step = ${6:NULL}"
+        ],
+        "description": "Creates a slider widget in which the user can provide a numeric value within a predefined range"
     }
 }
