@@ -1,0 +1,26 @@
+{
+    "name": "shinysnip",
+    "displayName": "shinysnip",
+    "description": "Simple Shiny snippet generator",
+    "publisher": "Mohamed El Fodil Ihaddaden",
+    "version": "0.1.0",
+    "icon": "shiny.png",
+    "repository": {
+
+        "type": "git",
+        "url": "https://github.com/feddelegrand/shinysnip"
+
+    },
+    "engines": {
+        "vscode": "^1.51.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [{
+            "language": "r",
+            "path": "./snippets/snippets.code-snippets"
+        }]
+    }
+}
