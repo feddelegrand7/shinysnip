@@ -52,7 +52,7 @@
     "Create a numericInput template": {
         "prefix": "!numericInput",
         "body": [
-            "numericInput(inputId = \"${1}\", label = \"${2}\", value = ${3}, min = ${4:NA}, max = ${5:NA}, step = ${6:NA}, width = NULL"
+            "numericInput(inputId = \"${1}\", label = \"${2}\", value = ${3}, min = ${4:NA}, max = ${5:NA}, step = ${6:NA}, width = NULL)"
         ],
         "description": "Shiny numeric inputs are used to collect numeric information from the end user"
     }
