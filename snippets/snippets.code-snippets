@@ -184,10 +184,36 @@
             "choices = ${3},",
             "selected = ${4:NULL},",
             "multiple = ${5:FALSE},",
-            "selectize = ${5:TRUE},",
-            "width = ${6:NULL}",
-            "size = ${5:NULL})"
+            "selectize = ${6:TRUE},",
+            "width = ${7:NULL},",
+            "size = ${8:NULL})"
         ],
         "description": "Creates a selectInput widget allowing the user to select stuffs from different options"
+    },
+    "Create a textAreaInput full template": {
+        "prefix": "!textAreaInputF",
+        "body": [
+            "selectInput(",
+            "inputId = \"${1}\",",
+            "label = \"${2}\",",
+            "value = \"${3}\",",
+            "width = ${4:NULL},",
+            "height = ${5:NULL},",
+            "cols = ${6:NULL},",
+            "rows = ${7:NULL},",
+            "placeholder = ${8:NULL},",
+            "resize = ${9:NULL})"
+        ],
+        "description": "Creates a fully parameterized textAreaInput in which the user can type a few lines of text"
+    },
+    "Create a textAreaInput compact template": {
+        "prefix": "!textAreaInput",
+        "body": [
+            "selectInput(",
+            "inputId = \"${1}\",",
+            "label = \"${2}\",",
+            "value = \"${3}\")",
+        ],
+        "description": "Creates a compact textAreaInput in which the user can type a few lines of text"
     }
 }
