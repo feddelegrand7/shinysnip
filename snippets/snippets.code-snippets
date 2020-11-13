@@ -115,7 +115,7 @@
             "startview = \"${7:month}\", ",
             "weekstart = ${8:0}, ",
             "language = \"${9:en}\", ",
-            "width = NULL)"
+            "width = ${10:NULL})"
         ],
         "description": "Creates a full parameterized date input allowing the user to pick a date from a calendar"
     },
@@ -129,7 +129,7 @@
     "Create a checkboxInput input template": {
         "prefix": "!checkboxInput",
         "body": [
-            "checkboxInput(inputId = \"${1}\", label = \"${2}\", value = ${3:FALSE}, width = NULL)"
+            "checkboxInput(inputId = \"${1}\", label = \"${2}\", value = ${3:FALSE}, width = ${4:NULL})"
         ],
         "description": "Creates a checkboxInput in which the user can switch between TRUE or FALSE"
     },
@@ -165,13 +165,13 @@
         "prefix": "!fileInput",
         "body": [
             "fileInput(",
-            "inputId = \"${1}\", ",
-            "label = \"${2}\", ",
-            "multiple = ${3:FALSE}, ",
-            "accept = ${4:NULL}, ",
-            "width = NULL, ",
-            "buttonLabel = \"${5:Browse...}\", ",
-            "placeholder = \"${6:No file selected}\")"
+            "inputId = \"${1}\",",
+            "label = \"${2}\",",
+            "multiple = ${3:FALSE},",
+            "accept = ${4:NULL},",
+            "width = ${5:NULL},",
+            "buttonLabel = \"${6:Browse...}\",",
+            "placeholder = \"${7:No file selected}\")"
         ],
         "description": "Creates a fileInput button in which the user can upload specific types of files"
     }
