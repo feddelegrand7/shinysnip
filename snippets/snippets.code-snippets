@@ -222,5 +222,30 @@
             "passwordInput(inputId = \"${1}\", label = \"${2}\", width = ${3:NULL}, placeholder = ${4:NULL})"
         ],
         "description": "Creates a template for the passwordInput widget which is used for entry of passwords"
+    },
+    "Create a varSelectInput full template": {
+        "prefix": "!varSelectInputF",
+        "body": [
+            "varSelectInput(",
+            "inputId = \"${1}\",",
+            "label = \"${2}\",",
+            "data = ${3},",
+            "selected = ${4:NULL},",
+            "multiple = ${5:FALSE},",
+            "selectize = ${6:TRUE},",
+            "width = ${7:NULL},",
+            "size = ${8:NULL})"
+        ],
+        "description": "Creates a fully parameterized varSelectInput which is used to allow the user to select a column from a data frame"
+    },
+    "Create a varSelectInput compact template": {
+        "prefix": "!varSelectInputF",
+        "body": [
+            "varSelectInput(",
+            "inputId = \"${1}\",",
+            "label = \"${2}\",",
+            "data = ${3})",
+        ],
+        "description": "Creates a compact varSelectInput which is used to allow the user to select a column from a data frame"
     }
 }
