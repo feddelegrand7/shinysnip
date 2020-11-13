@@ -173,6 +173,21 @@
             "buttonLabel = \"${6:Browse...}\",",
             "placeholder = \"${7:No file selected}\")"
         ],
-        "description": "Creates a fileInput button in which the user can upload specific types of files"
+        "description": "Creates a fileInput widget in which the user can upload specific types of files"
+    },
+    "Create a selectInput template": {
+        "prefix": "!selectInput",
+        "body": [
+            "selectInput(",
+            "inputId = \"${1}\",",
+            "label = \"${2}\",",
+            "choices = ${3},",
+            "selected = ${4:NULL},",
+            "multiple = ${5:FALSE},",
+            "selectize = ${5:TRUE},",
+            "width = ${6:NULL}",
+            "size = ${5:NULL})"
+        ],
+        "description": "Creates a selectInput widget allowing the user to select stuffs from different options"
     }
 }
