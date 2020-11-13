@@ -101,7 +101,7 @@
             "tabPanel(\"${5:Panel2}\", \"${6:Panel2 Content ...}\"),",
             "tabPanel(\"${7:Panel3}\", \"${8:Panel3 Content ...}\"))"
         ],
-        "description": "Create a navigation list panel linked to predefined tab panels"
+        "description": "Creates a navigation list panel linked to predefined tab panels"
     },
     "Create a full parameters dateInput template": {
         "prefix": "!dateInputF",
@@ -117,13 +117,48 @@
             "language = \"${9:en}\", ",
             "width = NULL)"
         ],
-        "description": "Create a full parameterized date input allowing the user to pick a date from a calendar"
+        "description": "Creates a full parameterized date input allowing the user to pick a date from a calendar"
     },
     "Create a compact dateInput template": {
         "prefix": "!dateInput",
         "body": [
             "dateInput(inputId = \"${1}\", label = \"${2}\", value = ${3:NULL}, min = ${4:NULL}, max = ${5:NULL})"
         ],
-        "description": "Create a compact date input allowing the user to pick a date from a calendar"
+        "description": "Creates a compact date input allowing the user to pick a date from a calendar"
+    },
+    "Create a checkboxInput input template": {
+        "prefix": "!checkboxInput",
+        "body": [
+            "checkboxInput(inputId = \"${1}\", label = \"${2}\", value = ${3:FALSE}, width = NULL)"
+        ],
+        "description": "Creates a checkboxInput in which the user can switch between TRUE or FALSE"
+    },
+    "Create a checkboxGroupInput full template": {
+        "prefix": "!checkboxGF",
+        "body": [
+            "checkboxGroupInput(inputId = \"${1}\",",
+            "label = \"${2}\",",
+            "choices = ${3},",
+            "selected = ${4}),",
+            "inline = ${5:FALSE},",
+            "width = ${6:NULL},",
+            "choiceNames = ${7:NULL},",
+            "choiceValues = ${8:NULL})"
+        ],
+        "description": "Creates a full parametrized checkboxGroupInput in which the user can choose from several option"
+    },
+    "Create a checkboxGroupInput compact template": {
+        "prefix": "!checkboxG",
+        "body": [
+            "checkboxGroupInput(inputId = \"${1}\",",
+            "label = \"${2}\",",
+            "choices = ${3},",
+            "selected = ${4}),",
+            "inline = ${5:FALSE},",
+            "width = ${6:NULL},",
+            "choiceNames = ${7:NULL},",
+            "choiceValues = ${8:NULL})"
+        ],
+        "description": "Creates a compact checkboxGroupInput in which the user can choose from several option"
     }
 }
