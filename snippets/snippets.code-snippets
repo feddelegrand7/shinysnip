@@ -160,5 +160,19 @@
             "choiceValues = ${8:NULL})"
         ],
         "description": "Creates a compact checkboxGroupInput in which the user can choose from several option"
+    },
+    "Create a fileInput template": {
+        "prefix": "!fileInput",
+        "body": [
+            "fileInput(",
+            "inputId = \"${1}\", ",
+            "label = \"${2}\", ",
+            "multiple = ${3:FALSE}, ",
+            "accept = ${4:NULL}, ",
+            "width = NULL, ",
+            "buttonLabel = \"${5:Browse...}\", ",
+            "placeholder = \"${6:No file selected}\")"
+        ],
+        "description": "Creates a fileInput button in which the user can upload specific types of files"
     }
 }
