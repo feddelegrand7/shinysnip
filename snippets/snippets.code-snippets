@@ -247,5 +247,35 @@
             "data = ${3})",
         ],
         "description": "Creates a compact varSelectInput which is used to allow the user to select a column from a data frame"
+    },
+    "Create a plotOutput template": {
+        "prefix": "!plotOutput",
+        "body": [
+            "plotOutput(",
+            "outputId = \"${1}\",",
+            "width = \"${2:100%}\",",
+            "height = \"${3:400px}\",",
+            "click = ${4:NULL},",
+            "dblclick = ${5:NULL},",
+            "hover = ${6:NULL},",
+            "brush = ${7:NULL},",
+            "inline = ${8:FALSE})"
+        ],
+        "description": "Creates a plotOutput template - Must be set within the UI"
+    },
+    "Create an imageOutput template": {
+        "prefix": "!imageOutput",
+        "body": [
+            "imageOutput(",
+            "outputId = \"${1}\",",
+            "width = \"${2:100%}\",",
+            "height = \"${3:400px}\",",
+            "click = ${4:NULL},",
+            "dblclick = ${5:NULL},",
+            "hover = ${6:NULL},",
+            "brush = ${7:NULL},",
+            "inline = ${8:FALSE})"
+        ],
+        "description": "Creates an imageOutput template - Must be set within the UI"
     }
 }
