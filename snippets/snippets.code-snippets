@@ -333,6 +333,7 @@
             "content = function(con){write.csv(${3:data2bdownl}, con)}}})",
             "# if you want to download in other formats: ",
             "# replace '.csv' and write.csv() according to the seeked extension."
-        ]
+        ],
+        "description": "Creates a full downloadButton template allowing the user to download a specific file"
     }
 }
