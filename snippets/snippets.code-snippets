@@ -373,6 +373,7 @@
             "env = ${14:parent.frame()},",
             "quoted = ${15:FALSE},",
             "outputArgs = ${16:list()})"
-        ]
+        ],
+        "description": "Creates a fully parameterized tableOutput/renderTable template"
     }
 }
