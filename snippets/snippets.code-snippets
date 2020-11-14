@@ -330,7 +330,7 @@
             "# Must be set within the server",
             "output\\$${1} <- downloadHandler({filename = function(){",
             "paste0(\"${3:data-}\", Sys.Date(), '.csv'),",
-            "content = function(con){write.csv(${3:data-2b-downl}, con)}}})",
+            "content = function(con){write.csv(${3:data2bdownl}, con)}}})",
             "# if you want to download in other formats: ",
             "# replace '.csv' and write.csv() according to the seeked extension."
         ]
