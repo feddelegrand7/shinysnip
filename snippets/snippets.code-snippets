@@ -138,8 +138,8 @@
         "body": [
             "checkboxGroupInput(inputId = \"${1}\",",
             "label = \"${2}\",",
-            "choices = ${3},",
-            "selected = ${4}),",
+            "choices = ${3:NULL},",
+            "selected = ${4:NULL}),",
             "inline = ${5:FALSE},",
             "width = ${6:NULL},",
             "choiceNames = ${7:NULL},",
@@ -277,6 +277,7 @@
     "Create a plotOutput template": {
         "prefix": "!plotOutput",
         "body": [
+            "# To be copied within the UI",
             "plotOutput(",
             "outputId = \"${1}\",",
             "width = \"${2:100%}\",",
@@ -285,13 +286,20 @@
             "dblclick = ${5:NULL},",
             "hover = ${6:NULL},",
             "brush = ${7:NULL},",
-            "inline = ${8:FALSE})"
+            "inline = ${8:FALSE})",
+            "",
+            "# To be copied within the server",
+            "output\\$${1} <- renderPlot({",
+            "",
+            "",
+            "})"
         ],
-        "description": "Creates a plotOutput template - Must be set within the UI"
+        "description": "Creates a plotOutput template"
     },
     "Create an imageOutput template": {
         "prefix": "!imageOutput",
         "body": [
+            "# To be copied within the UI",
             "imageOutput(",
             "outputId = \"${1}\",",
             "width = \"${2:100%}\",",
@@ -300,8 +308,17 @@
             "dblclick = ${5:NULL},",
             "hover = ${6:NULL},",
             "brush = ${7:NULL},",
-            "inline = ${8:FALSE})"
+            "inline = ${8:FALSE})",
+            "",
+            "# To be copied within the server",
+            "output\\$${1} <- renderImage({",
+            "expr = ${9}",
+            "env = parent.frame()",
+            "quoted = ${10:FALSE}",
+            "deleteFile = ${11}",
+            "outputArgs = ${12:list()}",
+            "})"
         ],
-        "description": "Creates an imageOutput template - Must be set within the UI"
+        "description": "Creates an imageOutput template"
     }
 }
