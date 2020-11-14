@@ -277,7 +277,6 @@
     "Create a plotOutput/renderPlot template": {
         "prefix": "!plotOutput",
         "body": [
-            "# Must be set within the UI",
             "plotOutput(",
             "outputId = \"${1}\",",
             "width = \"${2:100%}\",",
@@ -288,7 +287,6 @@
             "brush = ${7:NULL},",
             "inline = ${8:FALSE})",
             "",
-            "# Must be set within the server",
             "output\\$${1} <- renderPlot({",
             "",
             "",
@@ -299,7 +297,6 @@
     "Create an imageOutput/renderImage template": {
         "prefix": "!imageOutput",
         "body": [
-            "# Must be set within the UI",
             "imageOutput(",
             "outputId = \"${1}\",",
             "width = \"${2:100%}\",",
@@ -310,7 +307,6 @@
             "brush = ${7:NULL},",
             "inline = ${8:FALSE})",
             "",
-            "# Must be set within the server",
             "output\\$${1} <- renderImage({",
             "expr = ${9}",
             "env = parent.frame()",
@@ -343,5 +339,40 @@
             "# replace '.csv' and write.csv() according to the seeked extension."
         ],
         "description": "Creates a full downloadButton template allowing the user to download a specific file"
+    },
+    "Create a compact tableOutput/renderTable template": {
+        "prefix": "!tableOutput",
+        "body": [
+            "tableOutput(outputId = \"${1}\")",
+            "",
+            "output\\$${1} <- renderTable({",
+            "",
+            "",
+            "})"
+        ],
+        "description": "Creates a tableOutput/renderTable couple template"
+    },
+    "Create a full tableOutput/renderTable template": {
+        "prefix": "!tableOutputF",
+        "body": [
+            "tableOutput(outputId = \"${1}\")",
+            "",
+            "output\\$${1} <- renderTable({",
+            "expr = ${2},",
+            "striped = ${3:FALSE},",
+            "hover = ${4:FALSE},",
+            "bordered = ${5:FALSE},",
+            "spacing = ${6:c('s', 'xs', 'm', 'l'),",
+            "width = ${7:'auto'},",
+            "align = ${8:NULL},",
+            "rownames = ${9:FALSE},",
+            "colnames = ${10:TRUE}, ",
+            "digits = ${11:NULL},",
+            "na = ${12:'NA'},",
+            "${13:...}",
+            "env = ${14:parent.frame()},",
+            "quoted = ${15:FALSE},",
+            "outputArgs = ${16:list()})"
+        ]
     }
 }
