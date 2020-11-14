@@ -248,6 +248,32 @@
         ],
         "description": "Creates a compact varSelectInput which is used to allow the user to select a column from a data frame"
     },
+    "Create a radioButtons full template": {
+        "prefix": "!radioButtonsF",
+        "body": [
+            "radioButtons(",
+            "inputId = \"${1}\",",
+            "label = \"${2}\",",
+            "choices = ${3:NULL},",
+            "selected = ${4:NULL},",
+            "inline = ${5:FALSE},",
+            "width = ${6:NULL},",
+            "choiceNames = ${7:NULL},",
+            "choiceValues = ${8:NULL})"
+        ],
+        "description": "Creates a fully parameterized radioButtons widget allowing the user to select an item from a set of items"
+    },
+    "Create a radioButtons compact template": {
+        "prefix": "!radioButtonsF",
+        "body": [
+            "radioButtons(",
+            "inputId = \"${1}\",",
+            "label = \"${2}\",",
+            "choices = ${3:NULL},",
+            "selected = ${4:NULL})",
+        ],
+        "description": "Creates a compact radioButtons widget allowing the user to select an item from a set of items"
+    },
     "Create a plotOutput template": {
         "prefix": "!plotOutput",
         "body": [
