@@ -308,11 +308,7 @@
             "inline = ${8:FALSE})",
             "",
             "output\\$${1} <- renderImage({",
-            "expr = ${9}",
-            "env = parent.frame()",
-            "quoted = ${10:FALSE}",
-            "deleteFile = ${11}",
-            "outputArgs = ${12:list()}",
+            "",
             "})"
         ],
         "description": "Creates an imageOutput/renderImage template"
@@ -350,7 +346,7 @@
             "",
             "})"
         ],
-        "description": "Creates a tableOutput/renderTable couple template"
+        "description": "Creates a compact tableOutput/renderTable couple template"
     },
     "Create a full tableOutput/renderTable template": {
         "prefix": "!tableOutputF",
@@ -374,6 +370,6 @@
             "quoted = ${15:FALSE},",
             "outputArgs = ${16:list()})"
         ],
-        "description": "Creates a fully parameterized tableOutput/renderTable template"
+        "description": "Creates a fully parameterized tableOutput/renderTable couple template"
     }
 }
