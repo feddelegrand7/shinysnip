@@ -274,7 +274,7 @@
         ],
         "description": "Creates a compact radioButtons widget allowing the user to select an item from a set of items"
     },
-    "Create a plotOutput template": {
+    "Create a plotOutput/renderPlot template": {
         "prefix": "!plotOutput",
         "body": [
             "# Must be set within the UI",
@@ -294,9 +294,9 @@
             "",
             "})"
         ],
-        "description": "Creates a plotOutput template"
+        "description": "Creates a plotOutput/renderPlot template"
     },
-    "Create an imageOutput template": {
+    "Create an imageOutput/renderImage template": {
         "prefix": "!imageOutput",
         "body": [
             "# Must be set within the UI",
@@ -319,6 +319,20 @@
             "outputArgs = ${12:list()}",
             "})"
         ],
-        "description": "Creates an imageOutput template"
+        "description": "Creates an imageOutput/renderImage template"
+    },
+    "Create a downloadButton template": {
+        "prefix": "!downloadButton",
+        "body": [
+            "# Must be set within the UI",
+            "downloadButton(outputId = \"${1}\", label = \"${2}\")",
+            "",
+            "# Must be set within the server",
+            "output\\$${1} <- downloadHandler({filename = function(){",
+            "paste0(\"${3:data-}\", Sys.Date(), '.csv'),",
+            "content = function(con){write.csv(${3:data-2b-downl}, con)}}})",
+            "# if you want to download in other formats: ",
+            "# replace '.csv' and write.csv() according to the seeked extension."
+        ]
     }
 }
