@@ -432,8 +432,9 @@
             "fluidRow(",
             "   column(width = ${1}, \"UIContent\"),",
             "   column(width = ${2}, \"UIContent\"),",
-            "   column(width = ${3}, \"UIContent\")",
-            "# The sum of width must equal 12",
+            "   column(width = ${3}, \"UIContent\"),",
+            "   column(width = ${4}, \"UIContent\")",
+            "# The sum of 'width' must equal 12",
             ")"
         ],
         "description": "Creates a fluidRow/column template. Used to partition the Shiny app in an horizental direction"
