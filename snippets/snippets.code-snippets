@@ -474,5 +474,19 @@
             "   )"
         ],
         "description": "Creates a navbarPage that contains tabPanel tabs"
+    },
+    "Create a compact dataTableOutput/renderDataTable template": {
+        "prefix": "!dataTableOutput",
+        "body": [
+            "#Must be set within the UI",
+            "dataTableOutput(outputId = \"${1}\")",
+            "",
+            "#Must be set within the server",
+            "output\\$${1} <- renderDataTable({",
+            "",
+            "",
+            "})"
+        ],
+        "description": "Creates a compact dataTableOutput/renderDataTable couple template"
     }
 }
