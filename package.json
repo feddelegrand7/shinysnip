@@ -1,9 +1,9 @@
 {
     "name": "shinysnip",
     "displayName": "shinysnip",
-    "description": "Simple Shiny snippet generator",
+    "description": "Simple Shiny Code Snippets generator",
     "publisher": "Mohamed-El-Fodil-Ihaddaden",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "icon": "shiny.png",
     "repository": {
 
@@ -11,6 +11,15 @@
         "url": "https://github.com/feddelegrand7/shinysnip"
 
     },
+
+    "license": "MIT",
+
+    "bugs": {
+        "url": "https://github.com/feddelegrand7/shinysnip/issues"
+    },
+
+    "keywords": ["rstats", "R", "Snippets", "Shiny", "Code-Snippets"],
+
     "engines": {
         "vscode": "^1.51.0"
     },
