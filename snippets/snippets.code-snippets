@@ -430,9 +430,9 @@
         "prefix": "!fluidRow",
         "body": [
             "fluidRow(",
-            "   column(width = ${1}, ${2: UI Content goes here ...}),",
-            "   column(width = ${3}, ${4: UI Content goes here ...}),",
-            "   column(width = ${5}, ${6: UI Content goes here ...})",
+            "   column(width = ${1}, UI Content goes here ...),",
+            "   column(width = ${2}, UI Content goes here ...),",
+            "   column(width = ${3}, UI Content goes here ...)",
             "# The sum of width must equal 12",
             ")"
         ],
