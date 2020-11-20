@@ -42,6 +42,7 @@ If you've spotted a bug or wants a new feature, feel free to modify the followin
 |!textOutput/renderText   | 🟢  |
 |!textOutputPr/renderPrint   | 🟢  |
 |!fluidRow/column  | 🍊 |
+|!tabsetPanel  | 🍊 |
 |!observe  | 🔴 |
 |!req  | 🔴 |
 |!validate  | 🔴 |
@@ -59,6 +60,7 @@ If you've spotted a bug or wants a new feature, feel free to modify the followin
 Adding the following snippets: 
 
 + fluidRow/column 
++ tabsetPanel
 
   
 
