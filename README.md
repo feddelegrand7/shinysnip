@@ -44,10 +44,10 @@ If you've spotted a bug or wants a new feature, feel free to modify the followin
 |!fluidRow/column  | 🍊 |
 |!tabsetPanel  | 🍊 |
 |!icon  | 🍊 |
+|!reactive  | 🍊 |
 |!observe  | 🔴 |
 |!req  | 🔴 |
 |!validate  | 🔴 |
-|!reactive  | 🔴 |
 |!tabsetPanel  | 🔴 |
 |!DT::datatable  | 🔴 |
 |!DT::renderDataTable  | 🔴 |
@@ -63,6 +63,7 @@ Adding the following snippets:
 + !fluidRow/column 
 + !tabsetPanel
 + !icon
++ !reactive
 
   
 
