@@ -277,6 +277,7 @@
     "Create a plotOutput/renderPlot template": {
         "prefix": "!plotOutput",
         "body": [
+            "Must be set within the UI",
             "plotOutput(",
             "outputId = \"${1}\",",
             "width = \"${2:100%}\",",
@@ -287,6 +288,7 @@
             "brush = ${7:NULL},",
             "inline = ${8:FALSE})",
             "",
+            "Must be set within the Server",
             "output\\$${1} <- renderPlot({",
             "",
             "",
@@ -297,6 +299,7 @@
     "Create an imageOutput/renderImage template": {
         "prefix": "!imageOutput",
         "body": [
+            "Must be set within the UI",
             "imageOutput(",
             "outputId = \"${1}\",",
             "width = \"${2:100%}\",",
@@ -307,6 +310,7 @@
             "brush = ${7:NULL},",
             "inline = ${8:FALSE})",
             "",
+            "Must be set within the server",
             "output\\$${1} <- renderImage({",
             "",
             "})"
@@ -339,8 +343,10 @@
     "Create a compact tableOutput/renderTable template": {
         "prefix": "!tableOutput",
         "body": [
+            "Must be set within the UI",
             "tableOutput(outputId = \"${1}\")",
             "",
+            "Must be set within the server",
             "output\\$${1} <- renderTable({",
             "",
             "",
@@ -351,8 +357,10 @@
     "Create a full tableOutput/renderTable template": {
         "prefix": "!tableOutputF",
         "body": [
+            "Must be set within the UI",
             "tableOutput(outputId = \"${1}\")",
             "",
+            "Must be set within the Server",
             "output\\$${1} <- renderTable({",
             "expr = ${2},",
             "striped = ${3:FALSE},",
@@ -383,6 +391,46 @@
             "ignoreInit = ${5:FALSE}",
             "once = ${6:FALSE})",
         ],
-        "description": "Creates an observeEvent template that will produce an output when an event is triggered"
+        "description": "Creates an observeEvent template that will perform an action when an event is triggered"
+    },
+    "Create an eventReactive template": {
+        "prefix": "!eventReactive",
+        "body": [
+            "eventReactive(${1}, {",
+            "${2}",
+            "},",
+            "label = ${3:NULL},",
+            "ignoreNULL = ${4:TRUE},",
+            "ignoreInit = ${5:FALSE})"
+        ],
+        "description": "Creates an eventReactive template that will produce/update a value when an event is triggered"
+    },
+    "Create a textOutput/renderText template": {
+        "prefix": "!textOutput",
+        "body": [
+            "Must be set within the UI",
+            "textOutput(outputId = \"${1}\")",
+            "",
+            "Must be set within the Server",
+            "output\\$${1} <- renderText({",
+            "",
+            "",
+            "})"
+        ],
+        "description": "Creates a textOutput/renderText template"
+    },
+    "Create a textOutput/renderPrint template": {
+        "prefix": "!textOutputPr",
+        "body": [
+            "Must be set within the UI",
+            "textOutput(outputId = \"${1}\")",
+            "",
+            "Must be set within the Server",
+            "output\\$${1} <- renderPrint({",
+            "",
+            "",
+            "})"
+        ],
+        "description": "Creates a textOutput/renderPrint template"
     }
 }
