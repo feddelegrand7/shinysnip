@@ -1,6 +1,6 @@
 # shinysnip README
 
-`shinysnip` is a VSCode Extension that allows you to generate R Shiny code snippets. Note that Shiny offer a LOT of functions 👽, as such `shinysnip` may not be exhaustive 🐤, if you notice a missing feature 🔬, feel free to open an issue or create a PR :astronaut:. 
+`shinysnip` is a VSCode Extension that allows you to generate R Shiny code snippets. Note that [Shiny](https://shiny.rstudio.com/) offers a LOT of functions 👽, as such `shinysnip` may not be exhaustive 🐤, if you notice a missing feature 🔬, feel free to open an issue or create a PR 🧑‍🚀. 
 
 ## Features
 
