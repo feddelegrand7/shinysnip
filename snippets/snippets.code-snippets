@@ -153,11 +153,7 @@
             "checkboxGroupInput(inputId = \"${1}\",",
             "label = \"${2}\",",
             "choices = ${3},",
-            "selected = ${4},",
-            "inline = ${5:FALSE},",
-            "width = ${6:NULL},",
-            "choiceNames = ${7:NULL},",
-            "choiceValues = ${8:NULL})"
+            "selected = ${4})"
         ],
         "description": "Creates a compact checkboxGroupInput in which the user can choose from several option"
     },
