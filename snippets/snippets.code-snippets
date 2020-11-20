@@ -234,7 +234,7 @@
         "description": "Creates a fully parameterized varSelectInput which is used to allow the user to select a column from a data frame"
     },
     "Create a varSelectInput compact template": {
-        "prefix": "!varSelectInputF",
+        "prefix": "!varSelectInput",
         "body": [
             "varSelectInput(",
             "inputId = \"${1}\",",
