@@ -449,5 +449,10 @@
             ")"
         ],
         "description": "Creates a tabsetPanel template composed of several tabPanel tabs"
+    },
+    "Create a template for the icon function": {
+        "prefix": "!icon",
+        "body": "icon(name = ${1}, class = ${2:NULL}, lib = ${3:\"font-awesome\"})",
+        "description": "Creates a template for the icon function."
     }
 }
