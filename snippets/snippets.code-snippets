@@ -430,9 +430,9 @@
         "prefix": "!fluidRow",
         "body": [
             "fluidRow(",
-            "   column(width = ${1}, \"UIContent)\",",
-            "   column(width = ${2}, \"UIContent)\",",
-            "   column(width = ${3}, \"UIContent)\"",
+            "   column(width = ${1}, \"UIContent\"),",
+            "   column(width = ${2}, \"UIContent\"),",
+            "   column(width = ${3}, \"UIContent\")",
             "# The sum of width must equal 12",
             ")"
         ],
