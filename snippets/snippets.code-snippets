@@ -444,7 +444,7 @@
             "tabsetPanel(",
             "   tabPanel(title = \"${1}\", \"UIContent\"),",
             "   tabPanel(title = \"${2}\", \"UIContent\"),",
-            "   tabPanel(title = \"${3}\", \"UIContent\"),",
+            "   tabPanel(title = \"${3}\", \"UIContent\")",
             ")"
         ],
         "description": "Creates a tabsetPanel template composed of several tabPanel tabs"
