@@ -338,10 +338,10 @@
     "Create a compact tableOutput/renderTable template": {
         "prefix": "!tableOutput",
         "body": [
-            "Must be set within the UI",
+            "#Must be set within the UI",
             "tableOutput(outputId = \"${1}\")",
             "",
-            "Must be set within the server",
+            "#Must be set within the server",
             "output\\$${1} <- renderTable({",
             "",
             "",
@@ -352,10 +352,10 @@
     "Create a full tableOutput/renderTable template": {
         "prefix": "!tableOutputF",
         "body": [
-            "Must be set within the UI",
+            "#Must be set within the UI",
             "tableOutput(outputId = \"${1}\")",
             "",
-            "Must be set within the Server",
+            "#Must be set within the Server",
             "output\\$${1} <- renderTable({",
             "expr = ${2},",
             "striped = ${3:FALSE},",
