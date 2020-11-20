@@ -272,7 +272,7 @@
     "Create a plotOutput/renderPlot template": {
         "prefix": "!plotOutput",
         "body": [
-            "Must be set within the UI",
+            "#Must be set within the UI",
             "plotOutput(",
             "outputId = \"${1}\",",
             "width = \"${2:100%}\",",
@@ -283,7 +283,7 @@
             "brush = ${7:NULL},",
             "inline = ${8:FALSE})",
             "",
-            "Must be set within the Server",
+            "#Must be set within the Server",
             "output\\$${1} <- renderPlot({",
             "",
             "",
@@ -294,7 +294,7 @@
     "Create an imageOutput/renderImage template": {
         "prefix": "!imageOutput",
         "body": [
-            "Must be set within the UI",
+            "#Must be set within the UI",
             "imageOutput(",
             "outputId = \"${1}\",",
             "width = \"${2:100%}\",",
@@ -305,7 +305,7 @@
             "brush = ${7:NULL},",
             "inline = ${8:FALSE})",
             "",
-            "Must be set within the server",
+            "#Must be set within the server",
             "output\\$${1} <- renderImage({",
             "",
             "})"
@@ -315,11 +315,11 @@
     "Create a downloadButton template": {
         "prefix": "!downloadButton",
         "body": [
-            "# Must be set within the UI",
+            "#Must be set within the UI",
             "",
             "downloadButton(outputId = \"${1}\", label = \"${2}\")",
             "",
-            "# Must be set within the server",
+            "#Must be set within the server",
             "",
             "output\\$${1} <- downloadHandler(",
             "filename = function(){",
