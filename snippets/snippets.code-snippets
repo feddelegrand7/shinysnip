@@ -153,7 +153,7 @@
             "checkboxGroupInput(inputId = \"${1}\",",
             "label = \"${2}\",",
             "choices = ${3},",
-            "selected = ${4}),",
+            "selected = ${4},",
             "inline = ${5:FALSE},",
             "width = ${6:NULL},",
             "choiceNames = ${7:NULL},",
