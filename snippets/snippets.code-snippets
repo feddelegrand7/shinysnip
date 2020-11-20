@@ -378,8 +378,10 @@
             "observeEvenet(${1}, {",
             "${2}",
             "},",
-            "once = ${3:FALSE},",
-            "label = ${4:NULL})"
+            "label = ${3:NULL},",
+            "ignoreNULL = ${4:TRUE},",
+            "ignoreInit = ${5:FALSE}",
+            "once = ${6:FALSE})",
         ],
         "description": "Creates an observeEvent template that will produce an output when an event is triggered"
     }
