@@ -401,10 +401,10 @@
     "Create a textOutput/renderText template": {
         "prefix": "!textOutput",
         "body": [
-            "Must be set within the UI",
+            "#Must be set within the UI",
             "textOutput(outputId = \"${1}\")",
             "",
-            "Must be set within the Server",
+            "#Must be set within the Server",
             "output\\$${1} <- renderText({",
             "",
             "",
@@ -415,10 +415,10 @@
     "Create a textOutput/renderPrint template": {
         "prefix": "!textOutputPr",
         "body": [
-            "Must be set within the UI",
+            "#Must be set within the UI",
             "textOutput(outputId = \"${1}\")",
             "",
-            "Must be set within the Server",
+            "#Must be set within the Server",
             "output\\$${1} <- renderPrint({",
             "",
             "",
