@@ -6,6 +6,52 @@
 
 ![example](example.gif)
 
+
+## Available Functions
+
+If you've spotted a bug or wants a new feature, feel free to modify the following table: 
+
+🟢 Done 
+🔴 Not Implemented Yet
+
+
+
+|Function   | Status   |
+|---|---|
+|!fluidPage   | 🟢  |
+|!sidebarLayout   | 🟢  |
+|!textInput   | 🟢  |
+|!sliderInput   | 🟢  |
+|!navlistPanel   | 🟢  |
+|!dateInputF   | 🟢  |
+|!checkboxInput   | 🟢  |
+|!checkboxG   | 🟢  |
+|!fileInput   | 🟢  |
+|!selectInput   | 🟢  |
+|!textAreaInput   | 🟢  |
+|!passwordInput   | 🟢  |
+|!varSelectInput   | 🟢  |
+|!radioButtons   | 🟢  |
+|!plotOutput/renderPlot   | 🟢  |
+|!imageOutput/renderImage   | 🟢  |
+|!downloadButton/downloadHandler   | 🟢  |
+|!tableOutput/renderTable   | 🟢  |
+|!observeEvent   | 🟢  |
+|!eventReactive   | 🟢  |
+|!textOutput/renderText   | 🟢  |
+|!textOutputPr/renderPrint   | 🟢  |
+|!observe  | 🔴 |
+|!fluidRow  | 🔴 |
+|!req  | 🔴 |
+|!validate  | 🔴 |
+|!reactive  | 🔴 |
+|!reactive  | 🔴 |
+|!tabsetPanel  | 🔴 |
+|!DT::datatable  | 🔴 |
+|!DT::renderDataTable  | 🔴 |
+|!insertUI  | 🔴 |
+|!removeUI  | 🔴 |
+
 ## LOG
 #### 0.1.1
 
