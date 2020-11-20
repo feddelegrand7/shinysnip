@@ -41,22 +41,21 @@ If you've spotted a bug or wants a new feature, feel free to modify the followin
 |!eventReactive   | 🟢  |
 |!textOutput/renderText   | 🟢  |
 |!textOutputPr/renderPrint   | 🟢  |
-|!fluidRow/column  | 🍊 |
-|!tabsetPanel  | 🍊 |
-|!icon  | 🍊 |
-|!navbarPage  | 🍊 |
-|!reactive  | 🍊 |
-|!dataTableOutput/renderDataTable  | 🍊 |
+|!fluidRow/column  | 🟢  |
+|!tabsetPanel  | 🟢  |
+|!icon  | 🟢  |
+|!navbarPage  | 🟢 |
+|!reactive  | 🟢  |
+|!dataTableOutput/renderDataTable  | 🟢 |
 |!observe  | 🔴 |
 |!req  | 🔴 |
 |!validate  | 🔴 |
-|!tabsetPanel  | 🔴 |
 |!insertUI  | 🔴 |
 |!removeUI  | 🔴 |
 
 ## LOG
 
-#### 0.1.2 (Next Version) 
+#### 0.1.2  
 
 Adding the following snippets: 
 
@@ -67,7 +66,7 @@ Adding the following snippets:
 + !navbarPage
 + !dataTableOutput
 
-#### 0.1.1 (Current Version)
+#### 0.1.1 
 
 Initial release
 
