@@ -46,6 +46,7 @@ If you've spotted a bug or wants a new feature, feel free to modify the followin
 |!icon  | 🍊 |
 |!navbarPage  | 🍊 |
 |!reactive  | 🍊 |
+|!dataTableOutput/renderDataTable  | 🍊 |
 |!observe  | 🔴 |
 |!req  | 🔴 |
 |!validate  | 🔴 |
@@ -65,7 +66,8 @@ Adding the following snippets:
 + !tabsetPanel
 + !icon
 + !reactive
-+ navbarPage
++ !navbarPage
++ !dataTableOutput
 
 #### 0.1.1 (Current Version)
 

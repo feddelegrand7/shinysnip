@@ -475,7 +475,7 @@
         ],
         "description": "Creates a navbarPage that contains tabPanel tabs"
     },
-    "Create a compact dataTableOutput/renderDataTable template": {
+    "Create a dataTableOutput/renderDataTable template": {
         "prefix": "!dataTableOutput",
         "body": [
             "#Must be set within the UI",
@@ -487,6 +487,6 @@
             "",
             "})"
         ],
-        "description": "Creates a compact dataTableOutput/renderDataTable couple template"
+        "description": "Creates a dataTableOutput/renderDataTable couple template"
     }
 }
