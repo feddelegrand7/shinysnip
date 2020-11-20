@@ -43,6 +43,7 @@ If you've spotted a bug or wants a new feature, feel free to modify the followin
 |!textOutputPr/renderPrint   | 🟢  |
 |!fluidRow/column  | 🍊 |
 |!tabsetPanel  | 🍊 |
+|!icon  | 🍊 |
 |!observe  | 🔴 |
 |!req  | 🔴 |
 |!validate  | 🔴 |
@@ -59,8 +60,9 @@ If you've spotted a bug or wants a new feature, feel free to modify the followin
 
 Adding the following snippets: 
 
-+ fluidRow/column 
-+ tabsetPanel
++ !fluidRow/column 
++ !tabsetPanel
++ !icon
 
   
 
