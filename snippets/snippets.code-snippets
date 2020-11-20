@@ -381,7 +381,7 @@
             "},",
             "label = ${3:NULL},",
             "ignoreNULL = ${4:TRUE},",
-            "ignoreInit = ${5:FALSE}",
+            "ignoreInit = ${5:FALSE},",
             "once = ${6:FALSE})",
         ],
         "description": "Creates an observeEvent template that will perform an action when an event is triggered"
