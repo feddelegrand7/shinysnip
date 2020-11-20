@@ -361,7 +361,7 @@
             "striped = ${3:FALSE},",
             "hover = ${4:FALSE},",
             "bordered = ${5:FALSE},",
-            "spacing = ${6:c('s', 'xs', 'm', 'l'),",
+            "spacing = ${6:c('s', 'xs', 'm', 'l')},",
             "width = ${7:'auto'},",
             "align = ${8:NULL},",
             "rownames = ${9:FALSE},",
