@@ -97,9 +97,9 @@
             "",
             "\"${2:My Awesome Header}\",",
             "",
-            "tabPanel(\"${3:Panel1}\", \"${4:Panel1 Content ...}\"),",
-            "tabPanel(\"${5:Panel2}\", \"${6:Panel2 Content ...}\"),",
-            "tabPanel(\"${7:Panel3}\", \"${8:Panel3 Content ...}\"))"
+            "tabPanel(\"${3:Panel1}\", \"${4:Panel1Content}\"),",
+            "tabPanel(\"${5:Panel2}\", \"${6:Panel2Content}\"),",
+            "tabPanel(\"${7:Panel3}\", \"${8:Panel3Content}\"))"
         ],
         "description": "Creates a navigation list panel linked to predefined tab panels"
     },
@@ -430,9 +430,9 @@
         "prefix": "!fluidRow",
         "body": [
             "fluidRow(",
-            "   column(width = ${1}, UI Content goes here ...),",
-            "   column(width = ${2}, UI Content goes here ...),",
-            "   column(width = ${3}, UI Content goes here ...)",
+            "   column(width = ${1}, \"UIContent)\",",
+            "   column(width = ${2}, \"UIContent)\",",
+            "   column(width = ${3}, \"UIContent)\"",
             "# The sum of width must equal 12",
             ")"
         ],
@@ -442,9 +442,9 @@
         "prefix": "!tabsetPanel",
         "body": [
             "tabsetPanel(",
-            "   tabPanel(title = \"${1}\", UI Content goes here ...),",
-            "   tabPanel(title = \"${2}\", UI Content goes here ...),",
-            "   tabPanel(title = \"${3}\", UI Content goes here ...),",
+            "   tabPanel(title = \"${1}\", \"UIContent\"),",
+            "   tabPanel(title = \"${2}\", \"UIContent\"),",
+            "   tabPanel(title = \"${3}\", \"UIContent\"),",
             ")"
         ],
         "description": "Creates a tabsetPanel template composed of several tabPanel tabs"
