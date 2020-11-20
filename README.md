@@ -53,10 +53,19 @@ If you've spotted a bug or wants a new feature, feel free to modify the followin
 |!removeUI  | 🔴 |
 
 ## LOG
+
+### 0.1.2 
+
+Adding the following snippets: 
+
++ fluidRow/column 
+
+  
+
 #### 0.1.1
 
 Initial release
 
 ## Code of Conduct
 
-Please note that the batata project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
+Please note that the `shinysnip` project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
