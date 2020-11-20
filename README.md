@@ -44,6 +44,7 @@ If you've spotted a bug or wants a new feature, feel free to modify the followin
 |!fluidRow/column  | 🍊 |
 |!tabsetPanel  | 🍊 |
 |!icon  | 🍊 |
+|!navbarPage  | 🍊 |
 |!reactive  | 🍊 |
 |!observe  | 🔴 |
 |!req  | 🔴 |
@@ -64,8 +65,7 @@ Adding the following snippets:
 + !tabsetPanel
 + !icon
 + !reactive
-
-  
++ navbarPage
 
 #### 0.1.1 (Current Version)
 
