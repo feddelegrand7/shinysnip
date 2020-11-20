@@ -435,7 +435,7 @@
             "   column(width = ${3}, \"UIContent\"),",
             "   column(width = ${4}, \"UIContent\")",
             "# The sum of 'width' must equal 12",
-            ")"
+            "   )"
         ],
         "description": "Creates a fluidRow/column template. Used to partition the Shiny app in an horizental direction"
     },
@@ -446,7 +446,7 @@
             "   tabPanel(title = \"${1}\", \"UIContent\"),",
             "   tabPanel(title = \"${2}\", \"UIContent\"),",
             "   tabPanel(title = \"${3}\", \"UIContent\")",
-            ")"
+            "   )"
         ],
         "description": "Creates a tabsetPanel template composed of several tabPanel tabs"
     },
@@ -463,5 +463,16 @@
             "}, label = \"${2:NULL}\")"
         ],
         "description": "Creates a template for the 'reactive' function"
+    },
+    "Create a template for navbarPage": {
+        "prefix": "!navbarPage",
+        "body": [
+            "navbarPage(title = \"${1}\", collapsible = ${2:TRUE},",
+            "   tabPanel(title = \"${3}\", \"UIContent\"),",
+            "   tabPanel(title = \"${4}\", \"UIContent\"),",
+            "   tabPanel(title = \"${5}\", \"UIContent\")",
+            "   )"
+        ],
+        "description": "Creates a navbarPage that contains tabPanel tabs"
     }
 }
