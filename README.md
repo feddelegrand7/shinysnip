@@ -12,6 +12,7 @@
 If you've spotted a bug or wants a new feature, feel free to modify the following table: 
 
 🟢 Done 
+🍊 Implemented in the Development Version - Not Published
 🔴 Not Implemented Yet
 
 
@@ -40,8 +41,8 @@ If you've spotted a bug or wants a new feature, feel free to modify the followin
 |!eventReactive   | 🟢  |
 |!textOutput/renderText   | 🟢  |
 |!textOutputPr/renderPrint   | 🟢  |
+|!fluidRow/column  | 🍊 |
 |!observe  | 🔴 |
-|!fluidRow  | 🔴 |
 |!req  | 🔴 |
 |!validate  | 🔴 |
 |!reactive  | 🔴 |

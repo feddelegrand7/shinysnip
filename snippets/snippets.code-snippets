@@ -425,5 +425,17 @@
             "})"
         ],
         "description": "Creates a textOutput/renderPrint template"
+    },
+    "Create a fluidRow/column template": {
+        "prefix": "!fluidRow",
+        "body": [
+            "fluidRow(",
+            "   column(width = ${1}, ${2:# UI Content goes here ...}),",
+            "   column(width = ${3}, ${4:# UI Content goes here ...}),",
+            "   column(width = ${5}, ${6:# UI Content goes here ...})",
+            "# The sum of width must equal 12",
+            ")"
+        ],
+        "description": "Creates a fluidRow/column template. Used to partition the Shiny app in an horizental direction"
     }
 }
