@@ -54,7 +54,7 @@ If you've spotted a bug or wants a new feature, feel free to modify the followin
 
 ## LOG
 
-### 0.1.2 
+#### 0.1.2 (Next Version) 
 
 Adding the following snippets: 
 
@@ -62,7 +62,7 @@ Adding the following snippets:
 
   
 
-#### 0.1.1
+#### 0.1.1 (Current Version)
 
 Initial release
 
