@@ -371,5 +371,16 @@
             "outputArgs = ${16:list()})"
         ],
         "description": "Creates a fully parameterized tableOutput/renderTable couple template"
+    },
+    "Create an observeEvent template": {
+        "prefix": "!observeEvent",
+        "body": [
+            "observeEvenet(${1}, {",
+            "${2}",
+            "},",
+            "once = ${3:FALSE},",
+            "label = ${4:NULL})"
+        ],
+        "description": "Creates an observeEvent template that will produce an output when an event is triggered"
     }
 }
