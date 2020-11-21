@@ -47,13 +47,20 @@ If you've spotted a bug or wants a new feature, feel free to modify the followin
 |!navbarPage  | 🟢 |
 |!reactive  | 🟢  |
 |!dataTableOutput/renderDataTable  | 🟢 |
+|!insertUI  | 🟢 |
 |!observe  | 🔴 |
 |!req  | 🔴 |
 |!validate  | 🔴 |
-|!insertUI  | 🔴 |
 |!removeUI  | 🔴 |
 
 ## LOG
+#### 0.1.3
+
+Adding the following snippets: 
++ !insertUI
+
+
+
 
 #### 0.1.2  
 

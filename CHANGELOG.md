@@ -2,6 +2,14 @@
 
 All notable changes to the "shinysnip" extension will be documented in this file.
 
+
+
+## [0.1.3]
+
+Adding the following snippets: 
+
++ !insertUI
+
 ## [0.1.2]
 
 Adding the following snippets: 

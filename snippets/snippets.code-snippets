@@ -488,5 +488,17 @@
             "})"
         ],
         "description": "Creates a dataTableOutput/renderDataTable couple template"
+    },
+    "Create a template for insertUI": {
+        "prefix": "!insertUI",
+        "body": [
+            "insertUI(selector = \"${1}\",",
+            "         where = \"${2:afterEnd}\",",
+            "         ui = ${3},",
+            "         multiple = ${4:FALSE},",
+            "         immediate = ${5:FALSE}",
+            "         )"
+        ],
+        "description": "Creates a template for insertUI which allows the user to insert a UI component. This is generally used in conjunction with observeEvent."
     }
 }
