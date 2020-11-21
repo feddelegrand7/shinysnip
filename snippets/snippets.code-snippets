@@ -435,7 +435,7 @@
             "   column(width = ${3}, \"UIContent\"),",
             "   column(width = ${4}, \"UIContent\")",
             "# The sum of 'width' must equal 12",
-            "   )"
+            ")"
         ],
         "description": "Creates a fluidRow/column template. Used to partition the Shiny app in an horizental direction"
     },
@@ -446,7 +446,7 @@
             "   tabPanel(title = \"${1}\", \"UIContent\"),",
             "   tabPanel(title = \"${2}\", \"UIContent\"),",
             "   tabPanel(title = \"${3}\", \"UIContent\")",
-            "   )"
+            ")"
         ],
         "description": "Creates a tabsetPanel template composed of several tabPanel tabs"
     },
@@ -471,7 +471,7 @@
             "   tabPanel(title = \"${3}\", \"UIContent\"),",
             "   tabPanel(title = \"${4}\", \"UIContent\"),",
             "   tabPanel(title = \"${5}\", \"UIContent\")",
-            "   )"
+            ")"
         ],
         "description": "Creates a navbarPage that contains tabPanel tabs"
     },
@@ -497,7 +497,7 @@
             "         ui = ${3},",
             "         multiple = ${4:FALSE},",
             "         immediate = ${5:FALSE}",
-            "         )"
+            ")"
         ],
         "description": "Creates a template for insertUI which allows the user to insert a UI component. This is generally used in conjunction with observeEvent and actioButton."
     },
@@ -507,8 +507,17 @@
             "removeUI(selector = \"${1}\",",
             "         multiple = ${2:FALSE},",
             "         immediate = ${3:FALSE}",
-            "         )"
+            ")"
         ],
         "description": "Creates a template for removeUI which allows the user to remove a UI component. This is generally used in conjunction with observeEvent and actioButton."
+    },
+    "Create a template for validate/need": {
+        "prefix": "!validate",
+        "body": [
+            "validate(",
+            "   need(expr = ${1}, \"${2: A message to display when 'expr' is FALSE}\")",
+            ")"
+        ],
+        "description": "Creates a template for validate/need which is used to display informative message when a condition 'expr' is not met"
     }
 }

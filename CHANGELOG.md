@@ -10,6 +10,8 @@ Adding the following snippets:
 
 + !insertUI
 + !removeUI
++ !validate/need
+
 
 ## [0.1.2]
 

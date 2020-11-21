@@ -49,6 +49,7 @@ If you've spotted a bug or wants a new feature, feel free to modify the followin
 |!dataTableOutput/renderDataTable  | 🟢 |
 |!insertUI  | 🍊 |
 |!removeUI  | 🍊 |
+|!validate/need  | 🍊 |
 |!observe  | 🔴 |
 |!req  | 🔴 |
 |!validate  | 🔴 |
@@ -60,6 +61,7 @@ If you've spotted a bug or wants a new feature, feel free to modify the followin
 Adding the following snippets: 
 + !insertUI
 + !removeUI
++ !validate/need
 
 #### 0.1.2  
 
