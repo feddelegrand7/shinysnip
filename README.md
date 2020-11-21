@@ -50,6 +50,7 @@ If you've spotted a bug or wants a new feature, feel free to modify the followin
 |!insertUI  | 🍊 |
 |!removeUI  | 🍊 |
 |!validate/need  | 🍊 |
+|!navbarPage/navbarMenu  | 🍊 |
 |!observe  | 🔴 |
 |!req  | 🔴 |
 |!validate  | 🔴 |
@@ -62,6 +63,7 @@ Adding the following snippets:
 + !insertUI
 + !removeUI
 + !validate/need
++ !navbarPage/navbarMenu
 
 #### 0.1.2  
 

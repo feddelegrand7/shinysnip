@@ -519,5 +519,19 @@
             ")"
         ],
         "description": "Creates a template for validate/need which is used to display informative message when a condition 'expr' is not met"
+    },
+    "Create a navbarPage/navbarMenu template": {
+        "prefix": "!navbarPageMenu",
+        "body": [
+            "navbarPage(title = \"${1}\", collapsible = ${2:TRUE},",
+            "   tabPanel(title = \"${3}\", \"UIContent\"),",
+            "   tabPanel(title = \"${4}\", \"UIContent\"),",
+            "   navbarMenu(title = \"${5}\",",
+            "       tabPanel(title = \"${6}\", \"UIContent\"),",
+            "       tabPanel(title = \"${7}\", \"UIContent\"),",
+            "   )",
+            ")"
+        ],
+        "description": "Creates a navbarPage/navbarMenu template. The navbarMenu will be nested inside navbarPage"
     }
 }

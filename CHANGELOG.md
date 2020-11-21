@@ -11,6 +11,7 @@ Adding the following snippets:
 + !insertUI
 + !removeUI
 + !validate/need
++ !navbarPage/navbarMenu
 
 
 ## [0.1.2]
