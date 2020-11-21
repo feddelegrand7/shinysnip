@@ -13,6 +13,8 @@ Adding the following snippets:
 + !validate/need
 + !navbarPage/navbarMenu
 + !gt_output/render_gt
++ !plotlyOutput/renderPlotly
+
 
 
 

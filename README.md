@@ -52,12 +52,13 @@ If you've spotted a bug or wants a new feature, feel free to modify the followin
 |!validate/need  | 🍊 |
 |!navbarPage/navbarMenu  | 🍊 |
 |!gt_output/render_gt  | 🍊 |
+|!plotlyOutput/renderPlotly  | 🍊 |
 |!observe  | 🔴 |
 |!req  | 🔴 |
 |!validate  | 🔴 |
 |!removeUI  | 🔴 |
-|!gt_output/render_gt  | 🔴 |
 
+🇵🇱
 ## LOG
 #### 0.1.3
 
@@ -67,6 +68,8 @@ Adding the following snippets:
 + !validate/need
 + !navbarPage/navbarMenu
 + !gt_output/render_gt
++ !plotlyOutput/renderPlotly
+
 
 
 #### 0.1.2  

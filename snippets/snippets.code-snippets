@@ -549,5 +549,19 @@
             ")"
         ],
         "description": "Creates a gt_output/render_gt couple template"
+    },
+    "Create a plotlyOutput/renderPlotly template": {
+        "prefix": "!plotlyOutput 🇵🇱",
+        "body": [
+            "  #Must be set within the UI",
+            "plotlyOutput(outputId = \"${1}\")",
+            "",
+            "  #Must be set within the server",
+            "output\\$${1} <- renderPlotly(",
+            "",
+            "",
+            ")"
+        ],
+        "description": "Creates a plotlyOutput/renderPlotly couple template"
     }
 }
