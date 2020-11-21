@@ -499,6 +499,16 @@
             "         immediate = ${5:FALSE}",
             "         )"
         ],
-        "description": "Creates a template for insertUI which allows the user to insert a UI component. This is generally used in conjunction with observeEvent."
+        "description": "Creates a template for insertUI which allows the user to insert a UI component. This is generally used in conjunction with observeEvent and actioButton."
+    },
+    "Create a template for removeUI": {
+        "prefix": "!removeUI",
+        "body": [
+            "removeUI(selector = \"${1}\",",
+            "         multiple = ${2:FALSE},",
+            "         immediate = ${3:FALSE}",
+            "         )"
+        ],
+        "description": "Creates a template for removeUI which allows the user to remove a UI component. This is generally used in conjunction with observeEvent and actioButton."
     }
 }

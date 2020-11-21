@@ -47,7 +47,8 @@ If you've spotted a bug or wants a new feature, feel free to modify the followin
 |!navbarPage  | 🟢 |
 |!reactive  | 🟢  |
 |!dataTableOutput/renderDataTable  | 🟢 |
-|!insertUI  | 🟢 |
+|!insertUI  | 🍊 |
+|!removeUI  | 🍊 |
 |!observe  | 🔴 |
 |!req  | 🔴 |
 |!validate  | 🔴 |
@@ -58,9 +59,7 @@ If you've spotted a bug or wants a new feature, feel free to modify the followin
 
 Adding the following snippets: 
 + !insertUI
-
-
-
++ !removeUI
 
 #### 0.1.2  
 
