@@ -272,7 +272,7 @@
     "Create a plotOutput/renderPlot template": {
         "prefix": "!plotOutput",
         "body": [
-            "#Must be set within the UI",
+            " #Must be set within the UI",
             "plotOutput(",
             "outputId = \"${1}\",",
             "width = \"${2:100%}\",",
@@ -283,7 +283,7 @@
             "brush = ${7:NULL},",
             "inline = ${8:FALSE})",
             "",
-            "#Must be set within the Server",
+            " #Must be set within the Server",
             "output\\$${1} <- renderPlot({",
             "",
             "",
@@ -294,7 +294,7 @@
     "Create an imageOutput/renderImage template": {
         "prefix": "!imageOutput",
         "body": [
-            "#Must be set within the UI",
+            " #Must be set within the UI",
             "imageOutput(",
             "outputId = \"${1}\",",
             "width = \"${2:100%}\",",
@@ -305,7 +305,7 @@
             "brush = ${7:NULL},",
             "inline = ${8:FALSE})",
             "",
-            "#Must be set within the server",
+            " #Must be set within the server",
             "output\\$${1} <- renderImage({",
             "",
             "})"
@@ -315,11 +315,11 @@
     "Create a downloadButton template": {
         "prefix": "!downloadButton",
         "body": [
-            "#Must be set within the UI",
+            " #Must be set within the UI",
             "",
             "downloadButton(outputId = \"${1}\", label = \"${2}\")",
             "",
-            "#Must be set within the server",
+            " #Must be set within the server",
             "",
             "output\\$${1} <- downloadHandler(",
             "filename = function(){",
@@ -338,10 +338,10 @@
     "Create a compact tableOutput/renderTable template": {
         "prefix": "!tableOutput",
         "body": [
-            "#Must be set within the UI",
+            " #Must be set within the UI",
             "tableOutput(outputId = \"${1}\")",
             "",
-            "#Must be set within the server",
+            " #Must be set within the server",
             "output\\$${1} <- renderTable({",
             "",
             "",
@@ -352,10 +352,10 @@
     "Create a full tableOutput/renderTable template": {
         "prefix": "!tableOutputF",
         "body": [
-            "#Must be set within the UI",
+            " #Must be set within the UI",
             "tableOutput(outputId = \"${1}\")",
             "",
-            "#Must be set within the Server",
+            " #Must be set within the Server",
             "output\\$${1} <- renderTable({",
             "expr = ${2},",
             "striped = ${3:FALSE},",
@@ -401,10 +401,10 @@
     "Create a textOutput/renderText template": {
         "prefix": "!textOutput",
         "body": [
-            "#Must be set within the UI",
+            " #Must be set within the UI",
             "textOutput(outputId = \"${1}\")",
             "",
-            "#Must be set within the Server",
+            " #Must be set within the Server",
             "output\\$${1} <- renderText({",
             "",
             "",
@@ -415,10 +415,10 @@
     "Create a textOutput/renderPrint template": {
         "prefix": "!textOutputPr",
         "body": [
-            "#Must be set within the UI",
+            " #Must be set within the UI",
             "textOutput(outputId = \"${1}\")",
             "",
-            "#Must be set within the Server",
+            " #Must be set within the Server",
             "output\\$${1} <- renderPrint({",
             "",
             "",
@@ -478,10 +478,10 @@
     "Create a dataTableOutput/renderDataTable template": {
         "prefix": "!dataTableOutput",
         "body": [
-            "#Must be set within the UI",
+            " #Must be set within the UI",
             "dataTableOutput(outputId = \"${1}\")",
             "",
-            "#Must be set within the server",
+            " #Must be set within the server",
             "output\\$${1} <- renderDataTable({",
             "",
             "",
@@ -537,14 +537,14 @@
     "Create a gt_output/render_gt template": {
         "prefix": "!gt_output 🇬🇹",
         "body": [
-            "#Must be set within the UI",
+            "  #Must be set within the UI",
             "gt_output(outputId = \"${1}\")",
             "",
-            "#Must be set within the server",
+            "  #Must be set within the server",
             "output\\$${1} <- render_gt(",
             "   expr = ${2},",
-            "   height = px(${3}),",
-            "   width = px(${4}),",
+            "   height = px(${3:400}),",
+            "   width = px(${4:400}),",
             "   align = \"${5:center}\"",
             ")"
         ],
