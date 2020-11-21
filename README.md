@@ -51,6 +51,7 @@ If you've spotted a bug or wants a new feature, feel free to modify the followin
 |!removeUI  | 🍊 |
 |!validate/need  | 🍊 |
 |!navbarPage/navbarMenu  | 🍊 |
+|!gt_output/render_gt  | 🍊 |
 |!observe  | 🔴 |
 |!req  | 🔴 |
 |!validate  | 🔴 |

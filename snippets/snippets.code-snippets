@@ -535,7 +535,7 @@
         "description": "Creates a navbarPage/navbarMenu template. The navbarMenu will be nested inside navbarPage"
     },
     "Create a gt_output/render_gt template": {
-        "prefix": "!gt_output",
+        "prefix": "!gt_output 🇬🇹",
         "body": [
             "#Must be set within the UI",
             "gt_output(outputId = \"${1}\")",
