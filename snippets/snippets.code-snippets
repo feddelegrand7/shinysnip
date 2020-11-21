@@ -563,5 +563,16 @@
             ")"
         ],
         "description": "Creates a plotlyOutput/renderPlotly couple template"
+    },
+    "Create a template for the <style> tag": {
+        "prefix": "!style 🍀",
+        "body": [
+            "tags\\$$head(tags\\$$style(\"",
+            "   body{",
+            "       ${1} : ${2};",
+            "   }",
+            "\"))"
+        ],
+        "description": "Creates a <style> template to customize a Shiny app"
     }
 }

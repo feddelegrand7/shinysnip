@@ -14,6 +14,7 @@ Adding the following snippets:
 + !navbarPage/navbarMenu
 + !gt_output/render_gt
 + !plotlyOutput/renderPlotly
++ !style
 
 
 
