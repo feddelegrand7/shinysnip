@@ -12,6 +12,8 @@ Adding the following snippets:
 + !removeUI
 + !validate/need
 + !navbarPage/navbarMenu
++ !gt_output/render_gt
+
 
 
 ## [0.1.2]
