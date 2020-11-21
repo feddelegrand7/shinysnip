@@ -541,12 +541,12 @@
             "gt_output(outputId = \"${1}\")",
             "",
             "#Must be set within the server",
-            "output\\$${1} <- render_gt({",
+            "output\\$${1} <- render_gt(",
             "   expr = ${2},",
             "   height = px(${3}),",
             "   width = px(${4}),",
             "   align = \"${5:center}\"",
-            "})"
+            ")"
         ],
         "description": "Creates a gt_output/render_gt couple template"
     }
