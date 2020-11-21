@@ -528,7 +528,7 @@
             "   tabPanel(title = \"${4}\", \"UIContent\"),",
             "   navbarMenu(title = \"${5}\",",
             "       tabPanel(title = \"${6}\", \"UIContent\"),",
-            "       tabPanel(title = \"${7}\", \"UIContent\"),",
+            "       tabPanel(title = \"${7}\", \"UIContent\")",
             "   )",
             ")"
         ],
