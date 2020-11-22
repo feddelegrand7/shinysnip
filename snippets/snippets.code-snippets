@@ -658,4 +658,22 @@
         ],
         "description": "Creates Shiny fillPage starter template. fillPage UI elements always fill the available area of the window"
     },
+    "Create template for fillRow": {
+        "prefix": "!fillRow",
+        "body": [
+            "fillRow(flex = ${1:1}, width = \"${2:100%}\", height = \"${3:100%}\",",
+            "\"UIContent\"",
+            ")"
+        ],
+        "description": "fillRow is used in conjunction with fillPage. It allows the user to create row layouts with proportionally-sized cells"
+    },
+    "Create template for fillCol": {
+        "prefix": "!fillCol",
+        "body": [
+            "fillCol(flex = ${1:1}, width = \"${2:100%}\", height = \"${3:100%}\",",
+            "\"UIContent\"",
+            ")"
+        ],
+        "description": "fillCol is used in conjunction with fillPage. It allows the user to create column layouts with proportionally-sized cells"
+    }
 }

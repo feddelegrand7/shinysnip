@@ -60,6 +60,8 @@ If you've spotted a bug or wants a new feature, feel free to modify the followin
 |!showTab  | 🍊 |
 |!hideTab  | 🍊 |
 |!fillPage  | 🍊 |
+|!fillRow  | 🍊 |
+|!fillColumn  | 🍊 |
 |!observe  | 🔴 |
 |!req  | 🔴 |
 
@@ -85,6 +87,8 @@ Adding the following snippets:
 + !showTab
 + !hideTab
 + !fillPage
++ !fillRow
++ !fillColumn
 
 
 

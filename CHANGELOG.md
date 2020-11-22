@@ -22,6 +22,9 @@ Adding the following snippets:
 + !showTab
 + !hideTab
 + !fillPage
++ !fillRow
++ !fillColumn
+
 
 
 ## [0.1.2]
