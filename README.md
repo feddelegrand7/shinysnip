@@ -56,13 +56,15 @@ If you've spotted a bug or wants a new feature, feel free to modify the followin
 |!insertTab | 🍊 |
 |!style  | 🍊 |
 |!prependTab  | 🍊 |
+|!appendTab  | 🍊 |
 |!observe  | 🔴 |
 |!req  | 🔴 |
 |!validate  | 🔴 |
 |!removeUI  | 🔴 |
 
 
-➕
+
+
 
 ## LOG
 #### 0.1.3
@@ -77,6 +79,7 @@ Adding the following snippets:
 + !style
 + !insertTab
 + !prependTab
++ !appendTab
 
 
 

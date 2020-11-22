@@ -598,4 +598,15 @@
         ],
         "description": "Creates a template for prependTab which allows you to prepend (add to the beginning) a tab"
     },
+    "Create a template for appendTab": {
+        "prefix": "!appendTab",
+        "body": [
+            "appendTab(inputId = \"${1}\",",
+            "         tab = ${2},",
+            "         select = \"${3:FALSE}\",",
+            "         menuName = ${4:NULL}",
+            ")"
+        ],
+        "description": "Creates a template for appendTab which allows you to append (add to the end) a tab"
+    }
 }
