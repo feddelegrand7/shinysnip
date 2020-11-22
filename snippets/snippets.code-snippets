@@ -637,4 +637,25 @@
         ],
         "description": "Creates a template for hideTab which allows you to hide a tabPanel (or a navbarMenu) from an existing tabsetPanel, navlistPanel or navbarPage"
     },
+    "create a fillPage empty template": {
+        "prefix": "!fillPage",
+        "body": [
+            "ui <- fillPage(padding = ${1:0}, title = ${2:NULL}, ",
+            "",
+            "${3}",
+            "",
+            ")",
+            "",
+            "server <- function(input, output, session){",
+            "",
+            "${4}",
+            "",
+            "}",
+            "",
+            "",
+            "",
+            "shinyApp(ui = ui, server = server)"
+        ],
+        "description": "Creates Shiny fillPage starter template. fillPage UI elements always fill the available area of the window"
+    },
 }

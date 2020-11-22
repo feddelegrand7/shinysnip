@@ -59,6 +59,7 @@ If you've spotted a bug or wants a new feature, feel free to modify the followin
 |!appendTab  | 🍊 |
 |!showTab  | 🍊 |
 |!hideTab  | 🍊 |
+|!fillPage  | 🍊 |
 |!observe  | 🔴 |
 |!req  | 🔴 |
 
@@ -83,6 +84,7 @@ Adding the following snippets:
 + !removeTab
 + !showTab
 + !hideTab
++ !fillPage
 
 
 

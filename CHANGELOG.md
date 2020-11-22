@@ -21,6 +21,7 @@ Adding the following snippets:
 + !removeTab
 + !showTab
 + !hideTab
++ !fillPage
 
 
 ## [0.1.2]
