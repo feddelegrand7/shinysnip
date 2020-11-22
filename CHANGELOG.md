@@ -18,6 +18,7 @@ Adding the following snippets:
 + !insertTab
 + !prependTab
 + !appendTab
++ !removeTab
 
 
 

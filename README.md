@@ -57,6 +57,7 @@ If you've spotted a bug or wants a new feature, feel free to modify the followin
 |!style  | 🍊 |
 |!prependTab  | 🍊 |
 |!appendTab  | 🍊 |
+|!removeTab  | 🍊 |
 |!observe  | 🔴 |
 |!req  | 🔴 |
 |!validate  | 🔴 |
@@ -80,6 +81,7 @@ Adding the following snippets:
 + !insertTab
 + !prependTab
 + !appendTab
++ !removeTab
 
 
 

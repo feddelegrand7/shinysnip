@@ -582,7 +582,7 @@
             "         tab = ${2},",
             "         target = \"${3}\",",
             "         position = \"${4:after}\",",
-            "         select = ${5:FALSE}  ",
+            "         select = ${5:FALSE}",
             ")"
         ],
         "description": "Creates a template for insertTab which allows the user to insert a tabPanel or a navbarMenu from an existing tabsetPanel, navlistPanel or navbarPage"
@@ -608,5 +608,14 @@
             ")"
         ],
         "description": "Creates a template for appendTab which allows you to append (add to the end) a tab"
+    },
+    "Create a template for removeTab": {
+        "prefix": "!removeTab ❌",
+        "body": [
+            "removeTab(inputId = \"${1}\",",
+            "         tab = ${2}",
+            ")"
+        ],
+        "description": "Creates a template for removeTab which allows you to remove a tabPanel or a navbarMenu from an existing tabsetPanel, navlistPanel or navbarPage"
     }
 }
