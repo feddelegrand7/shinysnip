@@ -57,11 +57,10 @@ If you've spotted a bug or wants a new feature, feel free to modify the followin
 |!style  | 🍊 |
 |!prependTab  | 🍊 |
 |!appendTab  | 🍊 |
-|!removeTab  | 🍊 |
+|!showTab  | 🍊 |
+|!hideTab  | 🍊 |
 |!observe  | 🔴 |
 |!req  | 🔴 |
-|!validate  | 🔴 |
-|!removeUI  | 🔴 |
 
 
 
@@ -82,6 +81,8 @@ Adding the following snippets:
 + !prependTab
 + !appendTab
 + !removeTab
++ !showTab
++ !hideTab
 
 
 

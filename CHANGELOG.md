@@ -19,9 +19,8 @@ Adding the following snippets:
 + !prependTab
 + !appendTab
 + !removeTab
-
-
-
++ !showTab
++ !hideTab
 
 
 ## [0.1.2]

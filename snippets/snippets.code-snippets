@@ -617,5 +617,24 @@
             ")"
         ],
         "description": "Creates a template for removeTab which allows you to remove a tabPanel or a navbarMenu from an existing tabsetPanel, navlistPanel or navbarPage"
-    }
+    },
+    "Create a template for showTab": {
+        "prefix": "!showTab",
+        "body": [
+            "showTab(inputId = \"${1}\",",
+            "        target = \"${2}\",",
+            "        select = ${3:FALSE}",
+            ")"
+        ],
+        "description": "Creates a template for showTab which allows you to show a tabPanel (or a navbarMenu) from an existing tabsetPanel, navlistPanel or navbarPage"
+    },
+    "Create a template for hideTab": {
+        "prefix": "!hideTab",
+        "body": [
+            "hideTab(inputId = \"${1}\",",
+            "        target = \"${2}\"",
+            ")"
+        ],
+        "description": "Creates a template for hideTab which allows you to hide a tabPanel (or a navbarMenu) from an existing tabsetPanel, navlistPanel or navbarPage"
+    },
 }
