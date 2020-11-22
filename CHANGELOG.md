@@ -16,6 +16,8 @@ Adding the following snippets:
 + !plotlyOutput/renderPlotly
 + !style
 + !insertTab
++ !prependTab
+
 
 
 

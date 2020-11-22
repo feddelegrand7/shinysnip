@@ -55,11 +55,14 @@ If you've spotted a bug or wants a new feature, feel free to modify the followin
 |!plotlyOutput/renderPlotly  | 🍊 |
 |!insertTab | 🍊 |
 |!style  | 🍊 |
+|!prependTab  | 🍊 |
 |!observe  | 🔴 |
 |!req  | 🔴 |
 |!validate  | 🔴 |
 |!removeUI  | 🔴 |
 
+
+➕
 
 ## LOG
 #### 0.1.3
@@ -73,6 +76,7 @@ Adding the following snippets:
 + !plotlyOutput/renderPlotly
 + !style
 + !insertTab
++ !prependTab
 
 
 
