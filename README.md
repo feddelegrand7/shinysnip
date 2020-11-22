@@ -12,7 +12,7 @@
 If you've spotted a bug or wants a new feature, feel free to modify the following table: 
 
 🟢 Done 
-🍊 Implemented in the Development Version - Not Published
+🍊 Implemented in the Development Version
 🔴 Not Implemented Yet
 
 
