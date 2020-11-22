@@ -15,6 +15,7 @@ Adding the following snippets:
 + !gt_output/render_gt
 + !plotlyOutput/renderPlotly
 + !style
++ !insertTab
 
 
 

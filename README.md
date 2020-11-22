@@ -53,6 +53,7 @@ If you've spotted a bug or wants a new feature, feel free to modify the followin
 |!navbarPage/navbarMenu  | 🍊 |
 |!gt_output/render_gt  | 🍊 |
 |!plotlyOutput/renderPlotly  | 🍊 |
+|!insertTab | 🍊 |
 |!style  | 🍊 |
 |!observe  | 🔴 |
 |!req  | 🔴 |
@@ -71,6 +72,7 @@ Adding the following snippets:
 + !gt_output/render_gt
 + !plotlyOutput/renderPlotly
 + !style
++ !insertTab
 
 
 

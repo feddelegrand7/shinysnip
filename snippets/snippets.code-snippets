@@ -574,5 +574,17 @@
             "\"))"
         ],
         "description": "Creates a <style> template to customize a Shiny app"
-    }
+    },
+    "Create a template for insertTab": {
+        "prefix": "!insertTab",
+        "body": [
+            "insertTab(inputId = \"${1}\",",
+            "         tab = ${2},",
+            "         target = \"${3}\",",
+            "         position = \"${4:after}\",",
+            "         select = ${5:FALSE}  ",
+            ")"
+        ],
+        "description": "Creates a template for insertTab which allows the user to insert a tabPanel or a navbarMenu from an existing tabsetPanel, navlistPanel or navbarPage."
+    },
 }
