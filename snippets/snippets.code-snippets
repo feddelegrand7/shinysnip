@@ -376,7 +376,7 @@
     "Create an observeEvent template": {
         "prefix": "!observeEvent",
         "body": [
-            "observeEvenet(${1}, {",
+            "observeEvent(${1}, {",
             "${2}",
             "},",
             "label = ${3:NULL},",
