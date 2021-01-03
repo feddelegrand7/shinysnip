@@ -70,6 +70,12 @@ If you've spotted a bug or wants a new feature, feel free to modify the followin
 
 
 ## LOG
+
+
+#### 0.1.4
+
++ fixing `observeEvent` bug
+
 #### 0.1.3
 
 Adding the following snippets: 

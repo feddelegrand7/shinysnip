@@ -2,6 +2,9 @@
 
 All notable changes to the "shinysnip" extension will be documented in this file.
 
+## [0.1.4]
+
++ fixing `observeEvent` bug
 
 
 ## [0.1.3]
