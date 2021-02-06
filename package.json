@@ -12,13 +12,13 @@
 
     },
 
-    "license": "MIT",
+    "license": "GPLv3",
 
     "bugs": {
         "url": "https://github.com/feddelegrand7/shinysnip/issues"
     },
 
-    "keywords": ["rstats", "R", "Snippets", "Shiny", "Code-Snippets"],
+    "keywords": ["RStats", "R", "Snippets", "Shiny", "Code-Snippets"],
 
     "engines": {
         "vscode": "^1.51.0"
