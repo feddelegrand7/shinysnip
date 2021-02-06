@@ -71,6 +71,13 @@ If you've spotted a bug or wants a new feature, feel free to modify the followin
 
 ## LOG
 
+## 0.1.6
+
++ minor formatting stuff
+
+## 0.1.5
+
++ better formatting of code
 
 #### 0.1.4
 
