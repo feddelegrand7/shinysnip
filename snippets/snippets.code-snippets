@@ -50,7 +50,8 @@
                 "   label = \"${2}\",",
                 "   value = ${3},",
                 "   width = NULL,",
-                "   placeholder = NULL)"
+                "   placeholder = NULL",
+                ")"
         ],
         "description": "Creates a textInput template with all its arguments. Text inputs are used to collect text data from end users"
     },
@@ -64,7 +65,8 @@
             "   min = ${4:NA},",
             "   max = ${5:NA},",
             "   step = ${6:NA},",
-            "   width = NULL)"
+            "   width = NULL",
+            ")"
         ],
         "description": "Shiny numeric inputs are used to collect numeric information from the end user"
     },
@@ -78,7 +80,8 @@
             "   value = ${3},",
             "   min = ${4:NA},",
             "   max = ${5:NA},",
-            "   step = ${6:NA})"
+            "   step = ${6:NA}",
+            ")"
         ],
         "description": "Creates a slider widget in which the user can provide a numeric value within a predefined range"
     },
@@ -103,7 +106,8 @@
             "   post = ${15:NULL},",
             "   timeFormat = ${16:NULL},",
             "   timezone = ${17:NULL},",
-            "   dragRange = ${18:TRUE})"
+            "   dragRange = ${18:TRUE}",
+            ")"
         ],
         "description": "Creates a fully fledged sliderInput. For a more compact widget see '!sliderInput'"
     },
@@ -135,7 +139,8 @@
             "   startview = \"${7:month}\",",
             "   weekstart = ${8:0},",
             "   language = \"${9:en}\",",
-            "   width = ${10:NULL})"
+            "   width = ${10:NULL}",
+            ")"
         ],
         "description": "Creates a full parameterized date input allowing the user to pick a date from a calendar"
     },
@@ -147,7 +152,8 @@
             "   label = \"${2}\",",
             "   value = ${3:NULL},",
             "   min = ${4:NULL},",
-            "   max = ${5:NULL})"
+            "   max = ${5:NULL}",
+            ")"
         ],
         "description": "Creates a compact date input allowing the user to pick a date from a calendar"
     },
@@ -158,7 +164,8 @@
                 "   inputId = \"${1}\",",
                 "   label = \"${2}\",",
                 "   value = ${3:FALSE},",
-                "   width = ${4:NULL})"
+                "   width = ${4:NULL}",
+                ")"
         ],
         "description": "Creates a checkboxInput in which the user can switch between TRUE or FALSE"
     },
@@ -173,7 +180,8 @@
             "   inline = ${5:FALSE},",
             "   width = ${6:NULL},",
             "   choiceNames = ${7:NULL},",
-            "   choiceValues = ${8:NULL})"
+            "   choiceValues = ${8:NULL}",
+            ")"
         ],
         "description": "Creates a full parametrized checkboxGroupInput in which the user can choose from several option"
     },
@@ -183,7 +191,8 @@
             "checkboxGroupInput(",
             "   inputId = \"${1}\",",
             "   label = \"${2}\",",
-            "   choices = ${3})",
+            "   choices = ${3}",
+            ")"
         ],
         "description": "Creates a compact checkboxGroupInput in which the user can choose from several option"
     },
@@ -197,7 +206,8 @@
             "   accept = ${4:NULL},",
             "   width = ${5:NULL},",
             "   buttonLabel = \"${6:Browse...}\",",
-            "   placeholder = \"${7:No file selected}\")"
+            "   placeholder = \"${7:No file selected}\"",
+            ")"
         ],
         "description": "Creates a fileInput widget in which the user can upload specific types of files"
     },
@@ -212,7 +222,8 @@
             "   multiple = ${5:FALSE},",
             "   selectize = ${6:TRUE},",
             "   width = ${7:NULL},",
-            "   size = ${8:NULL})"
+            "   size = ${8:NULL}",
+            ")"
         ],
         "description": "Creates a selectInput widget allowing the user to select stuffs from different options"
     },
@@ -228,7 +239,8 @@
             "   cols = ${6:NULL},",
             "   rows = ${7:NULL},",
             "   placeholder = ${8:NULL},",
-            "   resize = ${9:NULL})"
+            "   resize = ${9:NULL}",
+            ")"
         ],
         "description": "Creates a fully parameterized textAreaInput in which the user can type a few lines of text"
     },
@@ -238,7 +250,8 @@
             "textAreaInput(",
             "   inputId = \"${1}\",",
             "   label = \"${2}\",",
-            "   value = \"${3}\")",
+            "   value = \"${3}\"",
+            ")"
         ],
         "description": "Creates a compact textAreaInput in which the user can type a few lines of text"
     },
@@ -249,7 +262,8 @@
             "   inputId = \"${1}\",",
             "   label = \"${2}\",",
             "   width = ${3:NULL},",
-            "   placeholder = ${4:NULL})"
+            "   placeholder = ${4:NULL}",
+            ")"
         ],
         "description": "Creates a template for the passwordInput widget which is used for entry of passwords"
     },
@@ -264,7 +278,8 @@
             "   multiple = ${5:FALSE},",
             "   selectize = ${6:TRUE},",
             "   width = ${7:NULL},",
-            "   size = ${8:NULL})"
+            "   size = ${8:NULL}",
+            ")"
         ],
         "description": "Creates a fully parameterized varSelectInput which is used to allow the user to select a column from a data frame"
     },
@@ -274,7 +289,8 @@
             "varSelectInput(",
             "   inputId = \"${1}\",",
             "   label = \"${2}\",",
-            "   data = ${3})",
+            "   data = ${3}",
+            ")"
         ],
         "description": "Creates a compact varSelectInput which is used to allow the user to select a column from a data frame"
     },
@@ -289,7 +305,8 @@
             "   inline = ${5:FALSE},",
             "   width = ${6:NULL},",
             "   choiceNames = ${7:NULL},",
-            "   choiceValues = ${8:NULL})"
+            "   choiceValues = ${8:NULL}",
+            ")"
         ],
         "description": "Creates a fully parameterized radioButtons widget allowing the user to select an item from a set of items"
     },
@@ -300,7 +317,8 @@
             "   inputId = \"${1}\",",
             "   label = \"${2}\",",
             "   choices = ${3:NULL},",
-            "   selected = ${4:NULL})",
+            "   selected = ${4:NULL}",
+            ")"
         ],
         "description": "Creates a compact radioButtons widget allowing the user to select an item from a set of items"
     },
@@ -316,7 +334,8 @@
             "   dblclick = ${5:NULL},",
             "   hover = ${6:NULL},",
             "   brush = ${7:NULL},",
-            "   inline = ${8:FALSE})",
+            "   inline = ${8:FALSE}",
+            ")",
             "",
             " #Must be set within the Server",
             "output\\$${1} <- renderPlot({",
@@ -338,7 +357,8 @@
             "   dblclick = ${5:NULL},",
             "   hover = ${6:NULL},",
             "   brush = ${7:NULL},",
-            "   inline = ${8:FALSE})",
+            "   inline = ${8:FALSE}",
+            ")",
             "",
             " #Must be set within the server",
             "output\\$${1} <- renderImage({",
@@ -404,7 +424,8 @@
             "   digits = ${11:NULL},",
             "   na = ${12:'NA'},",
             "   quoted = ${13:FALSE},",
-            "   outputArgs = ${14:list()}})"
+            "   outputArgs = ${14:list()}}",
+            ")"
         ],
         "description": "Creates a fully parameterized tableOutput/renderTable couple template"
     },
@@ -417,7 +438,8 @@
             "   label = ${3:NULL},",
             "   ignoreNULL = ${4:TRUE},",
             "   ignoreInit = ${5:FALSE},",
-            "   once = ${6:FALSE})",
+            "   once = ${6:FALSE}",
+            ")"
         ],
         "description": "Creates an observeEvent template that will perform an action when an event is triggered"
     },
@@ -429,7 +451,8 @@
             "   },",
             "   label = ${3:NULL},",
             "   ignoreNULL = ${4:TRUE},",
-            "   ignoreInit = ${5:FALSE})"
+            "   ignoreInit = ${5:FALSE}",
+            ")"
         ],
         "description": "Creates an eventReactive template that will produce/update a value when an event is triggered"
     },
@@ -531,7 +554,8 @@
             "   where = \"${2:afterEnd}\",",
             "   ui = ${3},",
             "   multiple = ${4:FALSE},",
-            "   immediate = ${5:FALSE})"
+            "   immediate = ${5:FALSE}",
+            ")"
         ],
         "description": "Creates a template for insertUI which allows the user to insert a UI component. This is generally used in conjunction with observeEvent and actioButton."
     },
@@ -540,7 +564,8 @@
         "body": [
             "removeUI(selector = \"${1}\",",
             "   multiple = ${2:FALSE},",
-            "   immediate = ${3:FALSE})"
+            "   immediate = ${3:FALSE}",
+            ")"
         ],
         "description": "Creates a template for removeUI which allows the user to remove a UI component. This is generally used in conjunction with observeEvent and actioButton."
     },
@@ -578,7 +603,8 @@
                 "expr = ${2},",
                 "height = px(${3:400}),",
                 "width = px(${4:400}),",
-                "align = \"${5:center}\")"
+                "align = \"${5:center}\"",
+               ")"
         ],
         "description": "Creates a gt_output/render_gt couple template"
     },
@@ -615,7 +641,8 @@
             "   tab = ${2},",
             "   target = \"${3}\",",
             "   position = \"${4:after}\",",
-            "   select = ${5:FALSE})"
+            "   select = ${5:FALSE}",
+            ")"
         ],
         "description": "Creates a template for insertTab which allows the user to insert a tabPanel or a navbarMenu from an existing tabsetPanel, navlistPanel or navbarPage"
     },
@@ -626,7 +653,8 @@
             "   inputId = \"${1}\",",
             "   tab = ${2},",
             "   select = \"${3:FALSE}\",",
-            "   menuName = ${4:NULL})"
+            "   menuName = ${4:NULL},",
+            ")"
         ],
         "description": "Creates a template for prependTab which allows you to prepend (add to the beginning) a tab"
     },
@@ -637,7 +665,8 @@
             "   inputId = \"${1}\",",
             "   tab = ${2},",
             "   select = \"${3:FALSE}\",",
-            "   menuName = ${4:NULL})"
+            "   menuName = ${4:NULL}",
+            ")"
         ],
         "description": "Creates a template for appendTab which allows you to append (add to the end) a tab"
     },
@@ -646,7 +675,8 @@
         "body": [
             "removeTab(",
             "   inputId = \"${1}\",",
-            "   tab = ${2})"
+            "   tab = ${2}",
+            ")"
         ],
         "description": "Creates a template for removeTab which allows you to remove a tabPanel or a navbarMenu from an existing tabsetPanel, navlistPanel or navbarPage"
     },
@@ -656,7 +686,8 @@
             "showTab(",
             "   inputId = \"${1}\",",
             "   target = \"${2}\",",
-            "   select = ${3:FALSE})"
+            "   select = ${3:FALSE}",
+            ")"
         ],
         "description": "Creates a template for showTab which allows you to show a tabPanel (or a navbarMenu) from an existing tabsetPanel, navlistPanel or navbarPage"
     },
@@ -665,7 +696,8 @@
         "body": [
             "hideTab(",
             "   inputId = \"${1}\",",
-            "   target = \"${2}\")"
+            "   target = \"${2}\"",
+            ")"
         ],
         "description": "Creates a template for hideTab which allows you to hide a tabPanel (or a navbarMenu) from an existing tabsetPanel, navlistPanel or navbarPage"
     },

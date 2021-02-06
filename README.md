@@ -73,6 +73,9 @@ If you've spotted a bug or wants a new feature, feel free to modify the followin
 
 ## LOG
 
+## [0.1.7]
+- Minor formatting
+
 ## 0.1.6
 
 + minor formatting stuff

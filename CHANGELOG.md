@@ -2,6 +2,9 @@
 
 All notable changes to the "shinysnip" extension will be documented in this file.
 
+## [0.1.7]
+- Minor formatting
+
 ## [0.1.6]
 
 - Minor formatting
